@@ -15,13 +15,13 @@ POTCAR, KPOINTS files there. You also need to run phonopy
 to create displaced crystal structures as a pre-process.  
 It should be like,  
   
-  phonopy -d --dim="x y z" POSCAR  
+>"phonopy -d --dim="x y z" POSCAR"
   
 where x, y, and z are integer numbers of expansion of the lattice.  
   
 Then just execute this script file like,  
   
-  ./phoopy_vasp.sh >& log &  
+>"./phoopy_vasp.sh >& log &"
   
 and the force calculations will start.  
 machines file for mpirun will be created by this script.
